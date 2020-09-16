@@ -1,0 +1,27 @@
+
+$green_200: #a5ea9d;
+$green_500: #0dd229;
+$green_800: #009805;
+
+$purple_200: #CE93D8;
+$purple_500: #9C27B0;
+$purple_800: #6A1B9A;
+
+$dark_gray_100: #4f5050;
+$dark_gray_200: #3a3b3c;
+$dark_gray_500: #282828;
+$dark_gray_800: #151515;
+
+$text_dark_gray_500: #B0B3B8;
+$text_dark_gray_200: #E4E6EB;
+
+$text_light_black_1000: #050505;
+$text_light_black_500: #56676B;
+$text_light_black_200: #E4E6EB;
+
+$blue: blue;
+
+@mixin hover_dark_gray_500 {
+  background-color: $dark_gray_200;
+  color: $text_dark_gray_200;
+}
